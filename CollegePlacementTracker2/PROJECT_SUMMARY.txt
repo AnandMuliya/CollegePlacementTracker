@@ -1,0 +1,58 @@
+COLLEGE PLACEMENT TRACKER - PROJECT SUMMARY
+==========================================
+
+PROJECT METADATA:
+- Name: College Placement Tracker
+- Version: 2.0
+- Platform: Android
+- Language: Kotlin
+- Architecture: MVVM
+- Target SDK: 34
+- Min SDK: 24
+
+KEY STATISTICS:
+- Total Activities: ~50
+- Total Layout Files: ~45
+- Database Entities: 5 (User, Company, Application, Interview, Student)
+- Roles Supported: 3 (Student, HOD, TPO)
+- Core Packages: 4 (Models, DAOs, Activities/Fragments, Utils)
+
+MAIN FEATURES:
+1. Multi-role authentication system
+2. Company posting and management
+3. Application tracking with status updates
+4. Interview scheduling and management
+5. Comprehensive reporting system
+6. Profile management for all user types
+7. Advanced search and filtering capabilities
+
+DATABASE STRUCTURE:
+- User Table: Stores user credentials and profiles
+- Company Table: Contains company information and job details
+- Application Table: Tracks student applications with status
+- Interview Table: Manages interview schedules and results
+- Student Table: Stores student-specific academic information
+
+ARCHITECTURE PATTERN:
+- Model-View-ViewModel (MVVM)
+- Room Database for local persistence
+- Repository pattern for data management
+- Data binding for UI components
+
+TECHNOLOGIES USED:
+- Kotlin (Primary language)
+- Android SDK
+- Room Database
+- Coroutines (Async operations)
+- Material Design
+- RecyclerView (Lists)
+- PDF Generation (iTextG)
+- Charts (MPAndroidChart)
+
+FILE STRUCTURE:
+- Activities: Business logic and UI controllers
+- Models: Data classes and entities
+- DAOs: Database access objects
+- Adapters: RecyclerView adapters
+- Utils: Helper functions and utilities
+- Layouts: XML UI definitions
