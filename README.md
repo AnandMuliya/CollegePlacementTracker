@@ -1,77 +1,81 @@
-# 🎓 College Placement Tracker
+# College Placement Tracker
 
-A comprehensive Android application for managing college placement activities with role-based access for **Students**, **HODs**, and **Training & Placement Officers (TPO)**.
+A comprehensive Android application for managing college placement activities with role-based access for Students, HODs, and Training & Placement Officers (TPO).
 
-Built with ❤️ using **Kotlin** and **Android Jetpack**
-
----
-
-## 📱 Screenshots
-
-### 🔐 Login
-<p align="center">
-  <img src="screenshots/login.jpeg" width="250" alt="Login Screen"/>
-</p>
-
-### 👨‍🎓 Student View
-<p align="center">
-  <img src="screenshots/student_dashboard.jpeg" width="250" alt="Student Dashboard"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/available_companies.jpeg" width="250" alt="Available Companies"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/placement_resources.jpeg" width="250" alt="Placement Resources"/>
-</p>
-
-### 👔 TPO View
-<p align="center">
-  <img src="screenshots/tpo_dashboard.jpeg" width="250" alt="TPO Dashboard"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/tpo_settings.jpeg" width="250" alt="TPO Settings"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/interview_management.jpeg" width="250" alt="Interview Management"/>
-</p>
-<p align="center">
-  <img src="screenshots/schedule_interview.jpeg" width="250" alt="Schedule Interview"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/reports_analysis.jpeg" width="250" alt="Reports & Analysis"/>
-</p>
-
-### 👨‍💼 HOD View
-<p align="center">
-  <img src="screenshots/hod_dashboard.jpeg" width="250" alt="HOD Dashboard"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/all_students.jpeg" width="250" alt="All Students"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/department_analysis.jpeg" width="250" alt="Department Analysis"/>
-</p>
+Built with Kotlin and Android Jetpack.
 
 ---
 
-## ✨ Features
+## Screenshots
 
-### 👨‍🎓 Student
+### Login
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/login.jpeg" width="250" alt="Login Screen"/>
+</p>
+
+### Student View
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/student_dashboard.jpeg" width="250" alt="Student Dashboard"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/available_companies.jpeg" width="250" alt="Available Companies"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/placement_resources.jpeg" width="250" alt="Placement Resources"/>
+</p>
+
+### TPO View
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/tpo_dashboard.jpeg" width="250" alt="TPO Dashboard"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/tpo_settings.jpeg" width="250" alt="TPO Settings"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/interview_management.jpeg" width="250" alt="Interview Management"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/schedule_interview.jpeg" width="250" alt="Schedule Interview"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/reports_analysis.jpeg" width="250" alt="Reports and Analysis"/>
+</p>
+
+### HOD View
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/hod_dashboard.jpeg" width="250" alt="HOD Dashboard"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/all_students.jpeg" width="250" alt="All Students"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/department_analysis.jpeg" width="250" alt="Department Analysis"/>
+</p>
+
+---
+
+## Features
+
+### Student
 - View and search available companies with filters (package range, company type)
 - Apply to eligible companies based on CGPA and branch
 - Track application status in real-time
 - Access placement resources (Resume Templates, Interview Tips, Coding Practice, etc.)
-- View career progress and upcoming opportunities
+- View career progress and upcoming opportunities on dashboard
 
-### 👔 TPO (Training & Placement Officer)
+### TPO (Training & Placement Officer)
 - Manage companies and student applications
 - Schedule and manage interviews
 - Generate placement reports (Overall, Student, Company, Application Status)
 - View real-time placement statistics
 - Configure placement settings and notifications
 
-### 👨‍💼 HOD
+### HOD
 - Monitor department-wise placement statistics
 - View and manage students in the department
-- Approve/reject student applications
+- Approve or reject student applications
 - Department analysis with placement overview
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Android Studio Hedgehog or later
@@ -85,7 +89,7 @@ Built with ❤️ using **Kotlin** and **Android Jetpack**
 git clone https://github.com/AnandMuliya/CollegePlacementTracker2.git
 ```
 
-2. Open in **Android Studio**
+2. Open in Android Studio
 
 3. Let Gradle sync dependencies
 
@@ -93,7 +97,7 @@ git clone https://github.com/AnandMuliya/CollegePlacementTracker2.git
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 app/
@@ -118,7 +122,7 @@ app/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -135,29 +139,7 @@ app/
 
 ---
 
-## 📦 Dependencies
-
-```gradle
-// Architecture
-implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
-implementation 'androidx.room:room-runtime:2.6.1'
-
-// UI
-implementation 'com.google.android.material:material:1.11.0'
-implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
-implementation 'com.airbnb.android:lottie:6.2.0'
-
-// Charts & Export
-implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
-implementation 'com.itextpdf:itextg:5.5.10'
-
-// Async
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
-```
-
----
-
-## 🗄️ Database Schema
+## Database Schema
 
 **Users** — id, email, password, fullName, role, rollNumber, branch, cgpa
 
@@ -167,19 +149,19 @@ implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
 ---
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
-- [ ] Resume upload and parsing
-- [ ] AI-powered resume analysis
-- [ ] Video interview integration
-- [ ] Alumni networking
-- [ ] Dark mode
-- [ ] Multi-language support
-- [ ] Calendar sync
+- Resume upload and parsing
+- AI-powered resume analysis
+- Video interview integration
+- Alumni networking
+- Dark mode
+- Multi-language support
+- Calendar sync
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -189,16 +171,16 @@ implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Anand Muliya** — [GitHub](https://github.com/AnandMuliya)
 
 ---
 
-⭐️ Give a star if this project helped you!
+Give a star if this project helped you!
