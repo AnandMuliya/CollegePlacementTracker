@@ -6,6 +6,14 @@ Built with Kotlin and Android Jetpack.
 
 ---
 
+## Download
+
+[Download Latest APK](https://github.com/AnandMuliya/CollegePlacementTracker2/releases/latest/download/app-debug.apk)
+
+> Install on any Android device (Android 7.0+). Enable "Install from unknown sources" in your phone settings before installing.
+
+---
+
 ## Screenshots
 
 ### Login
@@ -86,7 +94,7 @@ Built with Kotlin and Android Jetpack.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/AnandMuliya/CollegePlacementTracker.git
+git clone https://github.com/AnandMuliya/CollegePlacementTracker2.git
 ```
 
 2. Open in Android Studio
