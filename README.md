@@ -15,49 +15,7 @@ Built with Kotlin and Android Jetpack.
 ---
 
 ## Screenshots
-
-### Login
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/login.jpeg" width="250" alt="Login Screen"/>
-</p>
-
-### Student View
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/student_dashboard.jpeg" width="250" alt="Student Dashboard"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/available_companies.jpeg" width="250" alt="Available Companies"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/placement_resources.jpeg" width="250" alt="Placement Resources"/>
-</p>
-
-### TPO View
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/tpo_dashboard.jpeg" width="250" alt="TPO Dashboard"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/tpo_settings.jpeg" width="250" alt="TPO Settings"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/interview_management.jpeg" width="250" alt="Interview Management"/>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/schedule_interview.jpeg" width="250" alt="Schedule Interview"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/reports_analysis.jpeg" width="250" alt="Reports and Analysis"/>
-</p>
-
-### HOD View
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/hod_dashboard.jpeg" width="250" alt="HOD Dashboard"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/all_students.jpeg" width="250" alt="All Students"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AnandMuliya/CollegePlacementTracker2/main/screenshots/department_analysis.jpeg" width="250" alt="Department Analysis"/>
-</p>
-
----
+Screenshots are avilable in screenshot folder.
 
 ## Features
 
