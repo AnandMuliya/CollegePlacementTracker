@@ -82,7 +82,7 @@ Built with ❤️ using **Kotlin** and **Android Jetpack**
 
 1. Clone the repository
 ```bash
-git clone https://github.com/AnandMuliya/CollegePlacementTracker2.git
+git clone https://github.com/AnandMuliya/CollegePlacementTracker.git
 ```
 
 2. Open in **Android Studio**
